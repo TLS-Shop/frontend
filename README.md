@@ -17,7 +17,7 @@ Download Python here: https://www.python.org/downloads/
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+How to install all the dependencies:
 
 ```
 Create a virtual environment and run: 
@@ -25,9 +25,6 @@ Create a virtual environment and run:
 pip install -r requirements.txt
 ```
 
-
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Deployment
 Not yet
