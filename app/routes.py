@@ -1,4 +1,6 @@
-from flask import render_template
+from flask import render_template, flash, redirect, url_for, request
+from app import app
+from werkzeug.urls import url_parse
 from app import app
 
 
@@ -7,3 +9,5 @@ from app import app
 def index():
     title = "Home"
     return render_template('index.html', title=title)
+
+

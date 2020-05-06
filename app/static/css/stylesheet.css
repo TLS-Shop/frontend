@@ -1,7 +1,7 @@
 .bd-navbar{
     min-height: 4rem;
     background-color: #ffec9f;
-    height: 19.2vh;
+    height: 150px;
     box-shadow: 0px 5px 6px #00000029;
     opacity: 1;
 }
@@ -32,8 +32,8 @@
     right: 0;
     z-index: 1;
     border: 1px solid #707070;
-    border-radius: 22px;
-
+    border-radius: 19px;
+    text-align: center;
 }
 
 .dropdown-content a {
@@ -42,25 +42,28 @@
     width: 10vw;
     height: 5vh;
     border-radius: 22px;
-
+    font-size: 1vw;
+    text-decoration: none;
+    color: black;
 
 }
 
-.whiteButton{
+#dropdownMenu > a:nth-child(odd){
     background-color: #ffffff;
 }
 
-.whiteButton:hover{
+#dropdownMenu > a:nth-child(odd):hover{
     background-color: #dddddd;
 }
 
-.yellowButton{
+#dropdownMenu > a:nth-child(even){
     background-color: #FFEC9F;
 }
 
-.yellowButton:hover{
+#dropdownMenu > a:nth-child(even):hover{
     background-color: #beab63;
 }
+
 
 .show {
     display: block;
