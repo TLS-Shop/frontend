@@ -10,4 +10,6 @@ def index():
     title = "Home"
     return render_template('index.html', title=title)
 
-
+@app.route('login', methods=['GET', 'POST'])
+def login():
+    return render_template()
